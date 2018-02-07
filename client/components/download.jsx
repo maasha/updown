@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Download = (props) => {
   return (
-    <div className="download">
+    <div>
       <h2>download</h2>
       <p>File to download: {props.file}</p>
     </div>

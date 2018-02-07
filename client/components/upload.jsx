@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 
 const Upload = (props) => {
   return (
-    <div className="upload">
+    <form>
       <h2>updown</h2>
-      <input type="file" onChange={props.handleOnChange} />
-    </div>
+      <input
+        type="file"
+        onChange={props.handleOnChange}
+      />
+    </form>
   );
 };
 
